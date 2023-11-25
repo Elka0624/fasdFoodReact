@@ -139,6 +139,7 @@
   display: flex;
   align-items: center;
   margin-top: 45px;
+  margin-bottom: 150px;
 }
 
 .feature__btn__group button:nth-child(1) {
