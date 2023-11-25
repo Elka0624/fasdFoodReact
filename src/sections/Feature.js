@@ -50,23 +50,23 @@ const Feature = () => {
           <p>Lorem ipsum dolor</p>
           <h1>With a name like Saas, it has to be good.</h1>
           <div className="inbox">
-            <p>With a name like Saas, it has to be good.</p>
+            <p>Lorem ipsum dolor sit amet consectetur?</p>
             <img src={inboxBtn} alt="" />
           </div>
           <div className="inbox">
-            <p>With a name like Saas, it has to be good.</p>
+            <p>Lorem ipsum dolor sit amet consectetur?</p>
             <img src={inboxBtn} alt="" />
           </div>
           <div className="inbox">
-            <p>With a name like Saas, it has to be good.</p>
+            <p>Lorem ipsum dolor sit amet consectetur?</p>
             <img src={inboxBtn} alt="" />
           </div>
           <div className="inbox">
-            <p>With a name like Saas, it has to be good.</p>
+            <p>Lorem ipsum dolor sit amet consectetur?</p>
             <img src={inboxBtn} alt="" />
           </div>
           <div className="inbox">
-            <p>With a name like Saas, it has to be good.</p>
+            <p>Lorem ipsum dolor sit amet consectetur?</p>
             <img src={inboxBtn} alt="" />
           </div>
           <div className="feature__btn__group">
