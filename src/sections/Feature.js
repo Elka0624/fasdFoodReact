@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { createElement } from 'react'
 import './styles/Feature.css';
 import fedex from '../images/fedEx.svg';
 import amazon from '../images/amazon.svg';
@@ -12,6 +12,15 @@ import inboxBtn from '../images/Group 429.svg';
 import imgOne from '../images/Group 463.svg';
 
 const Feature = () => {
+  const openCard = () => {
+    const box = document.getElementById('box');
+    if(box.className === 'boxTest'){
+      box.style.display = 'inline-block';
+    }else{
+      box.classList = 'boxTest'
+    }
+    console.log(box);
+  }
   return (
     <div className='container' id='features'>
       <div className="feature__top">
@@ -49,10 +58,13 @@ const Feature = () => {
         <div className="feature__bottom__left">
           <p>Lorem ipsum dolor</p>
           <h1>With a name like Saas, it has to be good.</h1>
-          <div className="inbox">
+          <div className="inbox" onClick={openCard}>
             <p>Lorem ipsum dolor sit amet consectetur?</p>
             <img src={inboxBtn} alt="" />
           </div>
+          <div className="boxTest" id='box'>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, nam!</p>
+            </div>
           <div className="inbox">
             <p>Lorem ipsum dolor sit amet consectetur?</p>
             <img src={inboxBtn} alt="" />

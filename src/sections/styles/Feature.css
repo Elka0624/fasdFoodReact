@@ -188,3 +188,10 @@
   background-color: #1D92FF;
   color: white;
 }
+
+.boxTest{
+  display: none;
+  border-bottom: 1px solid #1D92FF;
+  border-left: 1px solid #1D92FF;
+  border-right: 1px solid #1D92FF;
+}
