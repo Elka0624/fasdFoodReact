@@ -2,6 +2,7 @@ import './styles/Header.css';
 import img from '../images/header-img.png';
 
 export default function Header() {
+    
     return (
         <div style={{background: '#002547'}}>
             <header className='container'>
