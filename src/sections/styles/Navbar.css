@@ -1,6 +1,9 @@
 nav {
     color: white;
     background-color: #002547;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
 }
 
 .nav {

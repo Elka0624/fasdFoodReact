@@ -6,7 +6,7 @@ import stre from '../images/Group 510.svg';
 
 const Price = () => {
   return (
-    <div className='container'>
+    <div className='container' id='price'>
       <h1 className='price__title'>Keep calm and buy</h1>
       <p className='price__text'>With lowering the price to even a slight extent one can achieve exponential growth.</p>
       <div className="price__cards">

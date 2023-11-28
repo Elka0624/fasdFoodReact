@@ -6,23 +6,23 @@ function Navbar() {
         <nav>
             <div className='container nav'>
                 <div className='logo'>
-                    <img alt="logo" src={logo} /> <span>Base</span>
+                    <a href="#home" style={{display: 'flex', alignItems: 'center'}}><img alt="logo" src={logo} /> <span style={{marginLeft: '10px',}}>Base</span></a>
                 </div>
                 <ul>
                     <li>
-                        Home
+                        <a href="#home">Home</a>
                     </li>
                     <li>
-                        Features
+                        <a href="#features">Features</a>
                     </li>
                     <li>
-                        Testimonial
+                        <a href="#testimonial"> Testimonial</a>
                     </li>
                     <li>
-                        Pricing
+                        <a href="#price">Pricing</a>
                     </li>
                     <li>
-                        CTA
+                        <a href="#footer">CTA</a>
                     </li>
                 </ul>
                 <div>

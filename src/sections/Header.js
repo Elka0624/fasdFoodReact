@@ -4,7 +4,7 @@ import img from '../images/header-img.png';
 export default function Header() {
     
     return (
-        <div style={{background: '#002547'}}>
+        <div style={{background: '#002547'}} id="home">
             <header className='container'>
             <div className='header__left'>
                 <p>Lorem ipsum dolor</p>

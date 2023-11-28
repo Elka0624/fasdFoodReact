@@ -5,7 +5,7 @@ import insta from '../images/Group 500.svg'
 
 const Footer = () => {
   return (
-    <div style={{background: 'rgb(18 23 28)'}}>
+    <div style={{background: 'rgb(18 23 28)'}} id="footer">
       <div className="container footer">
         <div className="footer__left">
           <div className="logo">

@@ -9,7 +9,7 @@ import group6 from '../images/Group6.svg';
 
 const Testimonial = () => {
   return (
-    <div className='container'>
+    <div className='container' id='testimonial'>
       <div className="testimonial">
         <p>Lorem ipsum dolor sit amet</p>
         <h1>The Loudest Noise Comes From The Electric Saas.</h1>

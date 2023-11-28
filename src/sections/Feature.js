@@ -13,7 +13,7 @@ import imgOne from '../images/Group 463.svg';
 
 const Feature = () => {
   return (
-    <div className='container'>
+    <div className='container' id='features'>
       <div className="feature__top">
         <img src={fedex} alt="" />
         <img src={amazon} alt="" />
